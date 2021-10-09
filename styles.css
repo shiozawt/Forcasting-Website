@@ -1,0 +1,87 @@
+:root {
+    text-shadow: lightgrey;
+    text: red;
+    background: lightgrey;
+}
+
+body {
+    width: 100%;
+    font-family: Helvetica;
+}
+
+input {
+    padding: 0;
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 1.4em;
+    text-decoration: none;
+    border: none;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: #494c4d;
+    text-decoration: underline;
+}
+
+.border {
+    margin: 10px;
+    padding: 20px;
+    border-style: groove;
+    border-width: 15px;
+    border-radius: 100px;
+    text-align: left;
+    margin: 40px;
+}
+
+#weatherSubmit{
+  background-color: darkblue;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+#weatherSubmit:hover{
+  background-color: cyan;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row h3, p {
+    padding-left: 5%;
+}
+
+.boxes {
+    width: 15%;
+    height: 50px;
+}
+
+.boxes h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 10%;
+    height: 18em;
+    border-style:double;
+    border-width: 5px;
+    margin: 5px;
+    padding: 8px;
+}
+
+form {
+    text-align:  center;
+}
+
+label {
+    margin: 200px;
+    font-size: 1.4em;
+}
